@@ -21,11 +21,11 @@ if(!file.exists(plotdir)){dir.create(plotdir)}
 # You can change these settings to vary what output you see during the analysis
 # Feel free to change these WITHOUT pushing the changes to github
 checkmarkers=1; #set to 1 to see a sample of the file to check markers are there
-initialdatacheck=1; #set to 1 toview raw data for each epoch
+initialdatacheck=1; #set to 1 to view raw data for each epoch
 initialdatacheck1=0; # set to 1 to view epochs after normalisation
 initialdatacheck2=0; #set to 1 to view epochs after heartbeat Correction
 initialdatacheck3=0; # set to 1 to visualise after baseline correction
-initialdatacheck4=1; # set to 1 to plot AND SAVE average for each subject
+initialdatacheck4=1; # set to 1 to plot and save average for each subject
 ########################################################
 
 # Timings in secs
