@@ -61,12 +61,15 @@ tasks <- c("WG","SG","PD","WC","SC","SD")
 ntasks <- length(tasks)
 
 # Select site
-sites = c('Bangor','Lancaster','Lincoln','Oxford','UCL')
-site_num <- as.integer(readline(prompt='Which site? 1=Bangor, 2=Lanc, 3=Linc, 4=Ox, 5=UCL: '))
+sites = c('Bangor','Lancaster','Lincoln','Oxford','UCL','UWA')
+site_num <- as.integer(readline(prompt='Which site? 1=Bangor, 2=Lanc, 3=Linc, 4=Ox, 5=UCL, 6=UWA: '))
 site=sites[site_num]
 wantcols = c(2,3,4,9) #sec, L, R,marker #select columns of interest to put in shortdat
 if (site_num == 3){
   wantcols = c(2,3,4,7)
+}
+if (site_num == 5){
+  wantcols = c(2,3,4,11)
 }
 
 # Read in sheet which lists all subjects and trial inclusions/exclusions
