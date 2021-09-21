@@ -53,7 +53,7 @@ poistartpoints=poistart*samplingrate
 poiendpoints=poiend*samplingrate
 
 trialsperrun=18
-mintrials = 12
+mintrials = 10
 
 # Tasks: A=Word Generation, B=Sentence Generation, C=Phonological Decision, 
 # D=Word Comprehension, E=Sentence Comprehension, F=Syntactic Decision
